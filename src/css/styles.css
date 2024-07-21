@@ -111,8 +111,8 @@ body {
 }
 
 .sorter > .image {
-  width: 120px;
-  height: 180px;
+  width: 240px;
+  height: 360px;
   margin: auto;
   grid-row: 1 / 7;
   cursor: pointer;
@@ -128,18 +128,24 @@ body {
   margin: 0.5em 5px 0px;
   width: calc(100%-10px);
   text-align: center;
-  font-size: 0.8em;
+  font-size: 1.2em;
   line-height: 1.5em;
 }
 
 .sorter > .left {
   grid-column: 1 / 2;
   border: 1px solid #000000;
+  position: relative;
+  right: 100%;
+  width: 200%;
 }
 
 .sorter > .right {
   grid-column: 3 / 4;
   border: 1px solid #000000;
+  position: relative;
+  right: 0%;
+  width: 200%;
 }
 
 .options {
