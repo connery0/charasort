@@ -71,7 +71,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Kirisame Marisa",
+    name: "Naofa",
     img: "WGxIAP8.jpeg",
     opts: {
       Campaign: ["CTNunCampaign"],
@@ -82,7 +82,7 @@ dataSet[dataSetVersion].characterData = [
     name:"Hina",
     img:"r30wjeu.jpeg",
     opts:{
-      Campaign: ["CorruptNun"],
+      Campaign: ["CTNunCampaign"],
       Collection: ['CTNun'],
       NPC:true
     }
