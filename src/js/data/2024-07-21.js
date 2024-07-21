@@ -8,7 +8,7 @@ dataSet[dataSetVersion].options = [
   {
     name:"Filter by Collection",
     key: "Collection",
-    tooltip: "Add characters to the pool based on a theme",
+    tooltip: "Add characters to the pool based on a theme.",
     checked:true,
 
     sub:
@@ -32,6 +32,10 @@ dataSet[dataSetVersion].options = [
         {
           name:"Corrupt the Nun",
           key:"CTNunCampaign"   
+        },
+        {
+          name:"Of Salt And Spray",
+          key:"SaltSpray"   
         }
       ]
   },
@@ -46,7 +50,7 @@ dataSet[dataSetVersion].options = [
     name: "Remove PCs",
     key: "PC",       //Anything that contains this key (set to true) will be REMOVED from the pool
     tooltip: "Hide player characters", // optional
-    checked: false, // optional
+    checked: true, // optional
   },
   {
     name: "Remove variants",
@@ -139,25 +143,110 @@ dataSet[dataSetVersion].characterData = [
       PC:true
     }
   },{
-    name:"Yooni",
+    name:"Gina",
     img:"XzHXrV3.png",
     opts:{
       Campaign: ["CTNunCampaign"],
       PC:true
     }
   },{
-    name:"celene",
+    name:"Celene",
     img:"83tf4lX.png",
     opts:{
       Campaign: ["CTNunCampaign"],
       PC:true
     }
   },{
-    name:"Ikki",
+    name:"Mila",
     img:"LU1i7Ni.png",
     opts:{
       Campaign: ["CTNunCampaign"],
       PC:true
     }
-  }
+  },
+  
+  {
+    name:"Phylia (bowl)",
+    img:"ky6jryv.png",
+    opts:{
+      Campaign: ["SaltSpray"],
+      Variant:true,
+      PC:true
+    }
+  },
+  {
+    name:"Cyla",
+    img:"lm8tMFr.png",
+    opts:{
+      Campaign: ["SaltSpray"],
+      PC:true
+    }
+  },
+  {
+    name:"Gort",
+    img:"Zw9DciD.png",
+    opts:{
+      Campaign: ["SaltSpray"],
+      PC:true
+    }
+  },
+  {
+    name:"Kaname",
+    img:"Lh6jaUn.png",
+    opts:{
+      Campaign: ["SaltSpray"],
+      PC:true
+    }
+  },
+  {
+    name:"Taco",
+    img:"QsTBVYD.png",
+    opts:{
+      Campaign: ["SaltSpray"],
+      PC:true
+    }
+  },
+  {
+    name:"Phylia",
+    img:"C1Y27Wd.png",
+    opts:{
+      Campaign: ["SaltSpray"],
+      PC:true
+    }
+  },
+  {
+    name:"Sil",
+    img:"lQcEBnc.png",
+    opts:{
+      Campaign: ["SaltSpray"],
+      PC:true
+    }
+  },
+  {
+    name:"Soho",
+    img:"mirSocO.png",
+    opts:{
+      Campaign: ["SaltSpray"],
+      PC:true
+    }
+  },
+  {
+    name:"Soho (autum)",
+    img:"Lg3hQjN.png",
+    opts:{
+      Campaign: ["SaltSpray"],
+      Variant:true,
+      PC:true
+    }
+  },
+  {
+    name:"Cenza",
+    img:"onTHykh.png",
+    opts:{
+      Campaign: ["SaltSpray"],
+      PC:true
+    }
+  },
+
+
 ];
