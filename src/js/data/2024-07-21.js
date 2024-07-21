@@ -4,6 +4,8 @@ dataSet[dataSetVersion] = {};
 //Other filters: player, campaign, class, artist? npc
 
 dataSet[dataSetVersion].options = [
+  // {name: "Filter nuns"}
+
   // {
 
     
@@ -71,44 +73,56 @@ dataSet[dataSetVersion].characterData = [
     name: "Helsee",
     img: "Md5FAW6.png",
     opts: {
-      // series: ["book", "EoSD", "PCB", "IaMP", "IN", "PoFV", "StB", "MoF", "SWR", "SA", "UFO", "Soku", "DS", "TD", "HM", "DDC", "ISC", "ULiL", "LoLK"],
-      // stage: ["st4"]
+      collection: 'Nun'
     }
   },
   {
     name: "Kirisame Marisa",
     img: "WGxIAP8.jpeg",
     opts: {
-      // series: ["book", "EoSD", "PCB", "IaMP", "IN", "PoFV", "StB", "MoF", "SWR", "SA", "UFO", "Soku", "DS", "GFW", "TD", "HM", "DDC", "ISC", "ULiL", "LoLK"],
-      // stage: ["st4", "ex"]
+      collection: 'Nun'
     }
   },{
-    name:"Hina"
+    name:"Hina",
     img:"r30wjeu.jpeg",
-    opts:{}
+    opts:{
+      collection: 'Nun'
+    }
   },{
-    name:"Aria"
+    name:"Aria",
     img:"PMixEdg.png",
-    opts:{}
+    opts:{
+      collection: 'Nun'
+    }
   },{
-    name:"Kashmir"
+    name:"Kashmir",
     img:"zeydGZ0.jpeg",
-    opts:{}
+    opts:{
+      collection: 'Nun'
+    }
   },{
-    name:"Halphas"
+    name:"Halphas",
     img:"GUZHwn6.jpeg",
-    opts:{}
+    opts:{
+      collection: 'Nun'
+    }
   },{
-    name:"Malphas (Hot)"
+    name:"Malphas (Hot)",
     img:"G0VrAYf.jpeg",
-    opts:{}
+    opts:{
+      collection: 'Nun'
+    }
   },{
-    name:"Nuolankumas"
+    name:"Nuolankumas",
     img:"kE463xR.jpeg",
-    opts:{}
+    opts:{
+      collection: 'Nun'
+    }
   },{
-    name:"Malphas (Kalm)"
+    name:"Malphas (Kalm)",
     img:"sGeJCR2.png",
-    opts:{}
+    opts:{
+      collection: 'Nun'
+    }
   }
 ];
